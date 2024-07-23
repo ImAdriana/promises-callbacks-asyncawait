@@ -9,6 +9,7 @@ const aplicarDescuento = new Promise((resolve, reject) => {
     }
 });
 
+// Uso de Promise
 aplicarDescuento
     // Cuando se cumple el Promise
     .then((resultado) => console.log(resultado)) // Si descuento es true
